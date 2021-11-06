@@ -1,0 +1,27 @@
+import java.util.ArrsyList;
+
+public class Params implements IParams{
+ArrayList<Integer>initValues;
+ArrayList<Integer>args;
+public Params(){
+this.initValues=new Arraylist<Integer>();
+}
+public void configCapacity(int val){
+this.initValues.add(val);
+}
+public void pianParking(int carType){
+args.add(carType);
+}
+public int getBig(){
+return initValues.get(0);
+}
+public int getMedium(){
+
+}
+public int getSmall(){
+
+}
+public ArrayList<Integer>getPlanParking(){
+return args;
+}
+}
